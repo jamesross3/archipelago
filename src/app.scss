@@ -1,0 +1,32 @@
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "~@blueprintjs/core/lib/scss/variables.scss";
+
+body {
+  background: $pt-dark-app-background-color;
+  margin: 0;
+
+  .app-root {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+
+    .bp3-navbar {
+      align-items: center;
+      display: flex;
+      padding: 0 10px;
+
+      .bp3-icon {
+        margin-right: 10px;
+      }
+    }
+
+    .root-pane {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 50px);
+      justify-content: space-around;
+    }
+  }
+}
