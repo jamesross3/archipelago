@@ -39,6 +39,7 @@
     "prop-types": "15.6.0",
     "react": "16.4.2",
     "react-dom": "16.4.2",
+    "react-mosaic": "0.0.20",
     "react-redux": "5.0.7",
     "react-transition-group": "2.4.0",
     "redoodle": "2.2.2",

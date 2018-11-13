@@ -75,7 +75,7 @@ module.exports = {
                 collapseWhitespace: true,
             },
             template: path.resolve(__dirname, "src/index.html"),
-            title: "GoPlay",
+            title: "Archipelago",
         }),
     ], 
 };
