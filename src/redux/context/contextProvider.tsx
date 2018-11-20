@@ -17,7 +17,7 @@ export class ContextProvider extends React.PureComponent<ContextProviderProps, {
     public getChildContext(): IContextType {
         return {
             dispatchers: {
-                fooDispatcher: this.props.fooDispatcher,
+                tabDispatcher: this.props.tabDispatcher,
             },
         };
     }

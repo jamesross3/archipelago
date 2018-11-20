@@ -7,10 +7,10 @@ import { combineReducers, Reducer } from "redoodle";
  * Local
  */
 import { IAppState } from "../state/state";
-import { FOO_REDUCERS } from "./fooReducers";
+import { TAB_REDUCERS } from "./tabReducers";
 
 export function getReducers(): Reducer<IAppState> {
     return combineReducers<IAppState>({
-        fooState: FOO_REDUCERS,
+        tabState: TAB_REDUCERS,
     });
 }

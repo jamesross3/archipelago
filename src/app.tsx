@@ -27,7 +27,7 @@ const reduxController = createReduxController(store);
 ReactDom.render(
     <Provider store={store}>
         <ContextProvider
-            fooDispatcher={reduxController.getFooDispatcher()}
+            tabDispatcher={reduxController.getTabDispatcher()}
         >
             <RootContainer/>
         </ContextProvider>

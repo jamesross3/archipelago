@@ -3,10 +3,10 @@
  */
 import { object, ValidationMap } from "prop-types";
 import * as React from "react";
-import { FooDispatcher } from "../dispatchers/fooDispatcher";
+import { TabDispatcher } from "../dispatchers/tabDispatcher";
 
 export interface IDispatcherContext {
-    fooDispatcher: FooDispatcher;
+    tabDispatcher: TabDispatcher;
 }
 
 export interface IContextType {

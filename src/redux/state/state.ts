@@ -1,12 +1,12 @@
 /**
  * Local
  */
-import { IFooState, INITIAL_FOO } from "./fooState";
+import { INITIAL_TAB_STATE, ITabState } from "./tabState";
 
 export interface IAppState {
-    fooState: IFooState;
+    tabState: ITabState;
 }
 
 export const INITIAL_STATE: IAppState = {
-    fooState: INITIAL_FOO,
+    tabState: INITIAL_TAB_STATE,
 };

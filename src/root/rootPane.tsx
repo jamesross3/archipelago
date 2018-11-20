@@ -4,6 +4,7 @@
 import { NonIdealState } from "@blueprintjs/core";
 import { IconNames } from "@blueprintjs/icons";
 import * as React from "react";
+import { Mosaic } from "react-mosaic-component";
 
 export class RootPane extends React.PureComponent<{}, {}> {
 
@@ -13,7 +14,7 @@ export class RootPane extends React.PureComponent<{}, {}> {
                 <NonIdealState
                     description="Implement something here!"
                     title="Clean Slate"
-                    icon={IconNames.CHEVRON_DOWN}
+                    icon={IconNames.CLOUD}
                 />
             </div>
         );
